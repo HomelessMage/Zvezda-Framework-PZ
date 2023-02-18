@@ -1,0 +1,17 @@
+IGUI_RU = {
+    IGUI_Knock="Постучать в дверь",
+    IGUI_GetKey="[АДМИН] Получить ключ от здания",
+    IGUI_DoorUnlock="[АДМИН] Отпереть дверь",
+    IGUI_DoorLock="[АДМИН] Запереть дверь",
+    IGUI_WindowUnlock="[АДМИН] Отпереть окно",
+    IGUI_WindowLock="[АДМИН] Запереть окно",
+    IGUI_WindowPermUnlock="[АДМИН] Отпереть окно (навсегда)",
+    IGUI_WindowPermLock="[АДМИН] Запереть окно (навсегда)",
+    IGUI_TeleportHere="Телепортироваться",
+    IGUI_Isometric="Изометрическое отображение карты",
+    IGUI_HideUnvisited="Скрыть непосещенные части карты",
+    IGUI_ShowCellGrid="Показать сетку ячеек",
+    IGUI_ShowTileGrid="Показать сетку тайлов",
+    IGUI_SetDoorKeyID="[АДМИН] Установить ID дверного замка",
+    IGUI_ReapplyStyle="Сбросить стиль",
+}

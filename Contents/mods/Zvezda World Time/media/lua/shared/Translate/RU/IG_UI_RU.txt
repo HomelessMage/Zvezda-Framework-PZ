@@ -1,0 +1,46 @@
+IGUI_RU = {
+
+    IGUI_SetDate        = "Установить дату",
+    IGUI_SetTime        = "Установить время",
+    IGUI_SyncTime       = "Синхронизация с системным временем",
+    IGUI_Close          = "Закрыть",
+
+    IGUI_ConfirmSyncTime = "Синхронизировать с системным временем?",
+
+    IGUI_Month_0        = "Январь",
+    IGUI_Month_0_short  = "Январь",
+
+    IGUI_Month_1        = "Февраль",
+    IGUI_Month_1_short  = "Февраль",
+
+    IGUI_Month_2        = "Март",
+    IGUI_Month_2_short  = "Март",
+
+    IGUI_Month_3        = "Апрель",
+    IGUI_Month_3_short  = "Апр",
+
+    IGUI_Month_4        = "Май",
+    IGUI_Month_4_short  = "Май",
+
+    IGUI_Month_5        = "Июнь",
+    IGUI_Month_5_short  = "Июнь",
+
+    IGUI_Month_6        = "Июль",
+    IGUI_Month_6_short  = "Июль",
+
+    IGUI_Month_7        = "Август",
+    IGUI_Month_7_short  = "Август",
+
+    IGUI_Month_8        = "Сентябрь",
+    IGUI_Month_8_short  = "Сентябрь",
+
+    IGUI_Month_9        = "Октябрь",
+    IGUI_Month_9_short  = "Октябрь",
+
+    IGUI_Month_10       = "Ноябрь",
+    IGUI_Month_10_short = "Ноябрь",
+
+    IGUI_Month_11       = "Декабрь",
+    IGUI_Month_11_short = "Декабрь",
+
+}

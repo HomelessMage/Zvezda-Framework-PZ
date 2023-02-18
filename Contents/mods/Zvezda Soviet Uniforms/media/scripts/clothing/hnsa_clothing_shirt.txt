@@ -1,0 +1,47 @@
+module HNSA
+{
+    imports
+    {
+        Base
+    }
+    
+    item M35S_Clothing_S
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = M35S,
+        ClothingItem = hnsa_s_m35,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = hnsa_s_m35_khaki,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = M35S_Clothing_S_World,
+    }
+
+    item M32S_Clothing_S
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = M32S,
+        ClothingItem = hnsa_s_m32,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = hnsa_s_m32_brown,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = M32S_Clothing_S_World,
+    }
+}

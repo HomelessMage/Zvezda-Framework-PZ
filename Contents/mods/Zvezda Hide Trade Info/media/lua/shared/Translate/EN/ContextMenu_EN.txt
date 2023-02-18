@@ -1,0 +1,5 @@
+ContextMenu_EN = {
+    ContextMenu_Trade = "Trade",
+    ContextMenu_PlayerTradeOptions_Disabled = "Trade is disabled",
+
+}

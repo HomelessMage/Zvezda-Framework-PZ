@@ -1,0 +1,29 @@
+module HNSA
+{
+    imports
+    {
+        Base
+    }
+	
+    item Jackboot_Clothing_F
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Kirza Jackboots,
+		ClothingItem = hnsa_f_jackboot,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BootsARmy,
+		StompPower = 2.5,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.8,
+        WorldStaticModel = Boots_Ground,
+	}
+}

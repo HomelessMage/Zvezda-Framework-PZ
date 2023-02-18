@@ -1,0 +1,141 @@
+module HNSA
+{
+    imports
+    {
+        Base
+    }
+	
+	item Balaclava_Clothing_H
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Vintage Balaclava,
+		ClothingItem = hnsa_h_balaclava,
+		BodyLocation = Mask,
+		BloodLocation = Head,
+		IconsForTexture = hnsa_h_balaclava;hnsa_h_balaclava_red,
+		CanHaveHoles = false,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.5,
+        WorldStaticModel = Balaclava_Clothing_H_World,
+	}
+
+    item Pilotka_Clothing_H
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Pilotka,
+		ClothingItem = hnsa_h_pilotka,
+		BodyLocation = Hat,
+		Icon = hnsa_h_pilotka,
+		CanHaveHoles = false,
+		ChanceToFall = 60,
+		Insulation = 0.10,
+		Weight = 0.5,
+        WorldStaticModel = Pilotka_Clothing_H_World,
+	}
+
+	item Budenovka_Clothing_H
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Budenovka,
+		ClothingItem = hnsa_h_budenovka,
+		BodyLocation = Hat,
+		Icon = hnsa_h_budenovka,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.7,
+        WindResistance = 1.0,
+        WaterResistance = 0.5,
+        Weight = 0.5,
+        WorldStaticModel = Budenovka_Clothing_H_World,
+	}
+
+	item Ushanka_Clothing_H
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ushanka,
+		ClothingItem = hnsa_h_ushanka,
+		BodyLocation = Hat,
+		IconsForTexture = hnsa_h_ushanka;hnsa_h_ushanka_grey;hnsa_h_ushanka_green,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 1.0,
+        WindResistance = 0.6,
+        WaterResistance = 0.5,
+        Weight = 0.5,
+        WorldStaticModel = Ushanka_Clothing_H_World,
+	}
+
+	item WoolHat_Clothing_H
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Vintage Wool Hat,
+		ClothingItem = hnsa_h_woolhat,
+		BodyLocation = Hat,
+		Icon = hnsa_h_woolhat,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.8,
+        WindResistance = 0.4,
+        WaterResistance = 0.5,
+        Weight = 0.5,
+        WorldStaticModel = WoolHat_Clothing_H_World,
+	}
+
+	item M36Visor_Clothing_H
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = M36 Visor Cap,
+		ClothingItem = hnsa_h_m36visor,
+		BodyLocation = Hat,
+		Icon = hnsa_h_m36visor,
+		CanHaveHoles = false,
+		ChanceToFall = 60,
+		Insulation = 0.10,
+		Weight = 0.5,
+        WorldStaticModel = M36Visor_Clothing_H_World,
+	}
+
+	item M41Visor_Clothing_H
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = M41 Visor Cap,
+		ClothingItem = hnsa_h_m41visor,
+		BodyLocation = Hat,
+		IconsForTexture = hnsa_h_m41visor_plain;hnsa_h_m41visor_nkvd,
+		CanHaveHoles = false,
+		ChanceToFall = 60,
+		Insulation = 0.10,
+		Weight = 0.5,
+        WorldStaticModel = M41Visor_Clothing_H_World,
+	}
+
+	item SSH40_Clothing_H
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = SSh-40,
+		ClothingItem = hnsa_h_ssh40,
+		BodyLocation = Hat,
+		Icon = hnsa_h_ssh40,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+		Weight = 1.0,
+        WorldStaticModel = SSH40_Clothing_H_World,
+	}
+}

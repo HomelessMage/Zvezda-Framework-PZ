@@ -1,0 +1,11 @@
+Sandbox_RU = {
+
+    Sandbox_PlayerTradeOptions = "[ЗВЕЗДА] Торговля",
+
+    Sandbox_PlayerTradeOptions_useCharacterName = "Использовать имя персонажа",
+    Sandbox_PlayerTradeOptions_useCharacterName_tooltip = "Использовать имя персонажа вместо логина",
+
+    Sandbox_PlayerTradeOptions_disabled = "Отключено",
+    Sandbox_PlayerTradeOptions_disabled_tooltip = "Отключить торговлю",
+
+}

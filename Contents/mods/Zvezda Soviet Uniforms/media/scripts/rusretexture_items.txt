@@ -1,0 +1,13 @@
+module PRClothes
+{
+    imports
+    {
+        Base
+    }
+    
+    model Russian_Cap_M35_Visor_Ground
+    {
+        mesh = WorldItems/Clothing/m35_visor_ground,
+        scale = 1
+    }
+}

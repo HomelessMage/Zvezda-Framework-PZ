@@ -1,0 +1,68 @@
+module HNSA
+{
+    imports
+    {
+        Base
+    }
+
+    model Balaclava_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_balaclava,
+        scale = 1
+    }
+    model Pilotka_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_pilotka,
+        scale = 1
+    }
+    model Budenovka_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_budenovka,
+        scale = 1
+    }
+    model Ushanka_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_ushanka,
+        scale = 1
+    }
+    model Woolhat_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_woolhat,
+        scale = 1
+    }
+    model M36Visor_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_m36visor,
+        scale = 1
+    }
+    model M41Visor_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_m41visor,
+        scale = 1
+    }
+    model SSH40_Clothing_H_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wh_ssh40,
+        scale = 1
+    }
+    model M35S_Clothing_S_World
+    {
+        mesh = WorldItems/Clothing/hnsa_ws_m35s,
+        scale = 1
+    }
+    model M35P_Clothing_P_World
+    {
+        mesh = WorldItems/Clothing/hnsa_wp_m35p,
+        scale = 1
+    }
+    model M32S_Clothing_S_World
+    {
+        mesh = WorldItems/Clothing/hnsa_ws_m32s,
+        scale = 1
+    }
+    model Waistbelt_Clothing_E_World
+    {
+        mesh = WorldItems/Clothing/hnsa_we_waistbelt,
+        scale = 1
+    }
+}

@@ -1,0 +1,20 @@
+module HNSA
+{
+    imports
+    {
+        Base
+    }
+
+    item Waistbelt_Clothing_E
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Waist-belt,
+        Icon	=	Belt,
+        BodyLocation = Belt,
+        ClothingItem = hnsa_e_waistbelt,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight,
+        WorldStaticModel = Waistbelt_Clothing_E_World,
+    }
+}

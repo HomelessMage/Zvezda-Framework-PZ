@@ -1,0 +1,551 @@
+module Base
+{
+	imports {
+		Base
+		}
+	item Hat_Police
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Police Hat,
+		ClothingItem = Hat_Police,
+		BodyLocation = Hat,
+		Icon = PeakcapPolice,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+		WaterResistance = 0.2,
+        WorldStaticModel = Russian_Cap_M35_Visor_Ground,
+	}
+	item Hat_Police_Grey
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Police Hat,
+		ClothingItem = Hat_Police_Grey,
+		BodyLocation = Hat,
+		Icon = PeakcapPolice,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+		WaterResistance = 0.2,
+        WorldStaticModel = Russian_Cap_M35_Visor_Ground,
+	}
+	item Hat_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Police Hat,
+		ClothingItem = Hat_Ranger,
+		BodyLocation = Hat,
+		Icon = PeakcapPolice,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.45,
+        WindResistance = 0.40,
+        WaterResistance = 0.25,
+        WorldStaticModel = Russian_Cap_M35_Visor_Ground,
+    }
+	item Hat_RiotHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Riot Helmet,
+		ClothingItem = Hat_RiotHelmet,
+		BodyLocation = FullHat,
+		Icon = RusHelmetRiot,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.45,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+	}
+	item Hat_CrashHelmet_Police
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Police Motorcycle Helmet,
+		ClothingItem = Hat_CrashHelmet_Police,
+		BodyLocation = Hat,
+		BloodLocation = FullHelmet,
+		Icon = RusHelmetMotorcyclePolice,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.8,
+        WindResistance = 0.8,
+	}
+	item Hat_BaseballCap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Baseball Cap,
+		ClothingItem = Hat_BaseballCap,
+		ClothingItemExtra = Hat_BaseballCap_Reverse,
+        ClothingItemExtraOption = ReverseCap,
+        clothingExtraSubmenu = ForwardCap,
+		BodyLocation = Hat,
+		IconsForTexture = BaseballCapRed;BaseballCapGreen;BaseballCapBlue,
+		CanHaveHoles = false,
+		ChanceToFall = 60,
+		Insulation = 0.10,
+		Weight = 0.5,
+	}
+	item Hat_BaseballCap_Reverse
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCap_Reverse,
+        ClothingItemExtra = Hat_BaseballCap,
+        ClothingItemExtraOption = ForwardCap,
+        clothingExtraSubmenu = ReverseCap,
+        BodyLocation = Hat,
+        IconsForTexture = BaseballCapRed;BaseballCapGreen;BaseballCapBlue,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+	item Hat_BaseballCapKY
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = KY Baseball Cap,
+        ClothingItem = Hat_BaseballCapKY,
+        ClothingItemExtra = Hat_BaseballCapKY_Reverse,
+        ClothingItemExtraOption = ReverseCap,
+        clothingExtraSubmenu = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapBlack,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapKY_Reverse
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = KY Baseball Cap,
+        ClothingItem = Hat_BaseballCapKY_Reverse,
+        ClothingItemExtra = Hat_BaseballCapKY,
+        ClothingItemExtraOption = ForwardCap,
+        clothingExtraSubmenu = ReverseCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapBlack,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapKY_Red
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = KY Baseball Cap,
+        ClothingItem = Hat_BaseballCapKY_Red,
+        ClothingItemExtra = Hat_BaseballCapKY_Reverse,
+        ClothingItemExtraOption = ReverseCap,
+        clothingExtraSubmenu = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapNY,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.15,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapBlue
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCapBlue,
+        ClothingItemExtra = Hat_BaseballCapBlue_Reverse,
+        ClothingItemExtraOption = ReverseCap,
+        clothingExtraSubmenu = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapCyan,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapBlue_Reverse
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCapBlue_Reverse,
+        ClothingItemExtra = Hat_BaseballCapBlue,
+        ClothingItemExtraOption = ForwardCap,
+        clothingExtraSubmenu = ReverseCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapCyan,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapRed
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCapRed,
+        ClothingItemExtra = Hat_BaseballCapRed_Reverse,
+        ClothingItemExtraOption = ReverseCap,
+        clothingExtraSubmenu = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapBrown,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapRed_Reverse
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCapRed_Reverse,
+        ClothingItemExtra = Hat_BaseballCapRed,
+        ClothingItemExtraOption = ForwardCap,
+        clothingExtraSubmenu = ReverseCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapBrown,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapGreen
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCapGreen,
+        ClothingItemExtra = Hat_BaseballCapGreen_Reverse,
+        ClothingItemExtraOption = ReverseCap,
+        clothingExtraSubmenu = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapLightGreen,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapGreen_Reverse
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCapGreen_Reverse,
+        ClothingItemExtra = Hat_BaseballCapGreen,
+        ClothingItemExtraOption = ForwardCap,
+        clothingExtraSubmenu = ReverseCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapLightGreen,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+	item Hat_CrashHelmet_Stars
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Patriotic Crash Helmet,
+		ClothingItem = Hat_CrashHelmet_Stars,
+		BodyLocation = Hat,
+		Icon = RusHelmetMotorcycleFlag,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.8,
+        WindResistance = 0.8,
+	}
+	item Hat_Ushanka
+    {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ushanka,
+		ClothingItem = Hat_UshankaCiv,
+		BodyLocation = Hat,
+		IconsForTexture = ushanka_brown;ushanka_black;ushanka_green;ushanka_grey,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 1.0,
+        WindResistance = 0.6,
+        WaterResistance = 0.5,
+        Weight = 0.5,
+        WorldStaticModel = Ushanka_Clothing_H_World,
+	}
+    item Trousers_Police
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Pants,
+        ClothingItem = Trousers_Police,
+        BodyLocation = Pants,
+        Icon = RusTrousersPolice,
+        BloodLocation = Trousers,
+        Insulation = 0.6,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PoliceGrey
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName =  Police Pants,
+        ClothingItem = Trousers_PoliceGrey,
+        BodyLocation = Pants,
+        Icon = RusTrousersPolice,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PrisonGuard
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prison Guard Pants,
+        ClothingItem = Trousers_PrisonGuard,
+        BodyLocation = Pants,
+        Icon = RusTrousersPolice,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Pants,
+        ClothingItem = Trousers_Ranger,
+        BodyLocation = Pants,
+        Icon = RusTrousersPolice,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Jacket_Police
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Coat,
+        ClothingItem = Jacket_Police,
+        BodyLocation = Jacket,
+        Icon = RusJacketPolice,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.25,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Coat,
+        ClothingItem = Jacket_Ranger,
+        BodyLocation = Jacket,
+        Icon = RusJacketPolice,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WaterResistance = 0.5,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+	item Shirt_OfficerWhite
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Shirt,
+		ClothingItem = Shirt_OfficerWhite,
+		BodyLocation = Shirt,
+		Icon = RusTshirtPolice,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item Shirt_PoliceBlue
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Shirt,
+		ClothingItem = Shirt_PoliceBlue,
+		BodyLocation = Shirt,
+		Icon = RusTshirtPolice,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item Shirt_PoliceGrey
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Shirt,
+		ClothingItem = Shirt_PoliceGrey,
+		BodyLocation = Shirt,
+		Icon = RusTshirtPolice,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item Shirt_PrisonGuard
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Prison Guard Shirt,
+		ClothingItem = Shirt_PrisonGuard,
+		BodyLocation = Shirt,
+		Icon = RusTshirtPolice,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item Shirt_Ranger
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Shirt,
+		ClothingItem = Shirt_Ranger,
+		BodyLocation = Shirt,
+		Icon = RusTshirtPolice,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item Tshirt_PoliceBlue
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police T-Shirt,
+        ClothingItem = Tshirt_PoliceBlue,
+        BodyLocation = Tshirt,
+        Icon	=	RusTshirtPolice,
+	BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Tshirt_PoliceGrey
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police T-Shirt,
+        ClothingItem = Tshirt_PoliceGrey,
+        BodyLocation = Tshirt,
+        Icon	=	RusTshirtPolice,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Tshirt_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ranger T-Shirt,
+        ClothingItem = Tshirt_Ranger,
+        BodyLocation = Tshirt,
+        Icon	=	RusTshirtPolice,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Boilersuit_Prisoner
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prisoner Jumpsuit,
+        ClothingItem = Boilersuit_Prisoner,
+        BodyLocation = FullSuit,
+        Icon = RusBoilerSuitPrisoner,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_PrisonerKhaki
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prisoner Jumpsuit,
+        ClothingItem = Boilersuit_PrisonerKhaki,
+        BodyLocation = FullSuit,
+        Icon = RusBoilerSuitPrisoner,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.40,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+	item AmmoStrap_Shells
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Shells Ammo Strap,
+		ClothingItem = AmmoStrap_Shells,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrap,
+		Tooltip = Tooltip_AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,
+		Tags = ReloadFastShells,
+	}
+}

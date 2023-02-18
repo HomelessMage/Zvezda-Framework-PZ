@@ -1,0 +1,5 @@
+ContextMenu_RU = {
+    ContextMenu_Trade = "Торговать",
+    ContextMenu_PlayerTradeOptions_Disabled = "Торговля отключена",
+
+}

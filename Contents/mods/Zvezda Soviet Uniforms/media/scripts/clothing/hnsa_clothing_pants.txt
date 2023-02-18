@@ -1,0 +1,43 @@
+module HNSA
+{
+    imports
+    {
+        Base
+    }
+    
+    item M35P_Clothing_P
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = M35P,
+        ClothingItem = hnsa_p_m35,
+        BodyLocation = Pants,
+        IconsForTexture = hnsa_p_m35_khaki;hnsa_p_m35_navy,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.7,
+        WindResistance = 0.55,
+        FabricType = Cotton,
+        WorldStaticModel = M35P_Clothing_P_World,
+    }
+
+    item M32P_Clothing_P
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = M32P,
+        ClothingItem = hnsa_p_m32,
+        BodyLocation = Pants,
+        IconsForTexture = hnsa_p_m32_brown;hnsa_p_m32_dbrown,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.7,
+        WindResistance = 0.55,
+        FabricType = Cotton,
+        WorldStaticModel = M35P_Clothing_P_World,
+    }
+}

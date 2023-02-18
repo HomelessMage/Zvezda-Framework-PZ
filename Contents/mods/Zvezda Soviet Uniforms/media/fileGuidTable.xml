@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fileGuidTable>
+
+<!-- Clothing -->
+    <!-- [ Head Accessories ] -->
+        <!-- [[ Soft Headgear ]] -->
+        <files> <!-- [==== Wool Balaclava ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_balaclava.xml</path>
+            <guid>41d5780c-56e1-449b-9b57-2d08019ec87c</guid>
+        </files>
+        <files> <!-- [==== Pilotka ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_pilotka.xml</path>
+            <guid>c2ef906a-fdae-4639-a711-5aa327e59818</guid>
+        </files>
+        <files> <!-- [==== Budenovka ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_budenovka.xml</path>
+            <guid>c8310315-5d23-413d-9886-794b295a5631</guid>
+        </files>
+        <files> <!-- [==== Ushanka ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_ushanka.xml</path>
+            <guid>ea364d6b-1611-479c-873a-79244259e425</guid>
+        </files>
+        <files> <!-- [==== Civ Ushanka ====] -->
+            <path>media/clothing/clothingItems/Hat_UshankaCiv.xml</path>
+            <guid>16b27f9f-4e03-4685-8916-4da20932a239</guid>
+        </files>
+        <files> <!-- [==== Wool Hat ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_woolhat.xml</path>
+            <guid>1e80179a-1184-42f7-b493-483292281e6e</guid>
+        </files>
+        
+        <!-- [[ Firm Headgear ]] -->
+        <files> <!-- [==== M36 Visor ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_m36visor.xml</path>
+            <guid>0be56aa2-1549-4962-b5a7-654189232347</guid>
+        </files>
+        <files> <!-- [==== M41 Visor ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_m41visor.xml</path>
+            <guid>4d54df62-50ae-4d61-9689-5226e37fa723</guid>
+        </files>
+
+        <!-- [[ Protective Headgear ]] -->
+        <files> <!-- [==== SSh-40 Helmet ====] -->
+            <path>media/clothing/clothingItems/hnsa_h_ssh40.xml</path>
+            <guid>b81c20f9-8ca4-4fe9-b102-c2b9b7fd46f4</guid>
+        </files>
+
+    <!-- [ Uniforms ] -->
+        <!-- [[ Shirt ]] -->
+        <files> <!-- [==== M35S ====] -->
+            <path>media/clothing/clothingItems/hnsa_s_m35.xml</path>
+            <guid>bac50509-ca73-43e7-9d7f-6f2c2c89b354</guid>
+        </files>
+
+        <files> <!-- [==== M32S Telogreiki ====] -->   
+            <path>media/clothing/clothingItems/hnsa_s_m32.xml</path>
+            <guid>0015af72-d5d1-489c-96fc-0f6ae830bad9</guid>
+        </files>
+
+        <!-- [[ Pants ]]-->
+        <files> <!-- [==== M35P ====] -->
+            <path>media/clothing/clothingItems/hnsa_p_m35.xml</path>
+            <guid>2b60f22f-954e-4199-92d5-b8c6c9ce8192</guid>
+        </files>
+
+        <files> <!-- [==== M32P ====] -->
+            <path>media/clothing/clothingItems/hnsa_p_m32.xml</path>
+            <guid>807aeaa4-d2d5-4b33-bfb1-82f0aad1394b</guid>
+        </files>
+
+    <!-- [ Equipment ] -->
+        <!-- [[ Belts ]] -->
+        <files> <!-- [==== Waist Belt ====] -->
+            <path>media/clothing/clothingItems/hnsa_e_waistbelt.xml</path>
+            <guid>8ba0f6ef-e22b-4b4c-b1be-2071aea81929</guid>
+        </files>
+
+    <!-- [ Feetwear ]-->
+        <!-- [[ Boots ]] -->
+        <files> <!-- [==== Kirza Jackboots ====] -->
+            <path>media/clothing/clothingItems/hnsa_f_jackboot.xml</path>
+            <guid>389982e3-9ddf-4f81-871d-9d1c620c859d</guid>
+        </files>
+</fileGuidTable>

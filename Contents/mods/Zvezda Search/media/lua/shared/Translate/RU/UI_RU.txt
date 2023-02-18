@@ -1,0 +1,8 @@
+UI_RU = {
+    UI_Searching = "Обыск",
+    UI_SearchingUIHelp = "<CENTRE> <SIZE:medium> Используйте этот интерфейс для обыска.",
+    UI_SearchingItemsFound = "Обнаружены предметы",
+    UI_SearchingNoItems = "Ничего не найдено",
+    UI_SearchingGetCloser = "Вы должны находиться ближе",
+    UI_SearchStub = "Обыскать %1",
+}
